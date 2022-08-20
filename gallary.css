@@ -16,7 +16,7 @@
 
 .gallary-contain
 {
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -60,8 +60,10 @@
 
 .gal-item > img
 {
-    width: 300px;
-    height: 314px;
+    max-width: 300px;
+    max-height: 314px;
+    width: 90%;
+    height: 70%;
     object-fit: cover;
     display: grid;
     margin: 0 auto;
